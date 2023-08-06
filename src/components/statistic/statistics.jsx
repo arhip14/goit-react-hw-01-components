@@ -15,4 +15,5 @@ const Statistics = ({ title, stats }) => {
     </section>
   );
 };
+
 export default Statistics;
