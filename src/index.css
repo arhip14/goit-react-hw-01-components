@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import url('path-to-normalize.css'); /* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -73,7 +73,6 @@ code {
   color: #555;
 }
 
-
 .statistics {
   width: 300px;
   border: 1px solid #ccc;
@@ -145,7 +144,6 @@ code {
 .friend-list .status.offline {
   background-color: red;
 }
-
 
 .transaction-history {
   width: 400px;

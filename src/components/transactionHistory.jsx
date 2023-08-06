@@ -1,6 +1,5 @@
-
 import React from 'react';
-import transactions from '../json-info/transactions.json';
+import './transactionHistory.css'; 
 
 const TransactionHistory = ({ items }) => {
   return (

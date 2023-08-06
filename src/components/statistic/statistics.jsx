@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './statistics.css';
 const Statistics = ({ title, stats }) => {
   return (
     <section className="statistics">

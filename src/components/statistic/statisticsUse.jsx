@@ -1,6 +1,8 @@
 import React from 'react';
-import Statistics from './statistics'; 
+import Statistics from './statistics';
 import data from '../data.json';
+import './statisticsUse.css';
+
 const App = () => {
   return (
     <div className="app">
