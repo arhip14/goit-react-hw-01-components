@@ -1,4 +1,4 @@
-@import url('path-to-normalize.css'); /* bring in normalize.css styles */
+@import '~normalize.css/normalize.css';
 
 body {
   margin: 0;
@@ -13,38 +13,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- 
 .profile {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
+ 
+align-items: center;
   width: 300px;
-  border: 1px solid #ccc;
+  
+ 
+border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
 }
 
 .profile .description {
-  text-align: center;
-  margin-bottom: 20px;
+  
+ 
+text-align: center;
+  
+ 
+margin-bottom: 20px;
 }
 
 .profile .avatar {
-  width: 100px;
-  height: 100px;
+  
+ 
+width: 100px;
+  
+ 
+height: 100px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  
+ 
+margin-bottom: 10px;
 }
 
 .profile .name {
-  font-size: 20px;
+  
+ 
+font-size: 20px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .profile .tag {
   color: #777;
-  margin-bottom: 5px;
+  
+ 
+margin-bottom: 5px;
 }
 
 .profile .location {
@@ -52,14 +69,20 @@ code {
 }
 
 .profile .stats {
-  list-style: none;
+  
+ 
+list-style: none;
   padding: 0;
 }
 
 .profile .stats li {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
+ 
+justify-content: space-between;
+  
+ 
+align-items: center;
   margin-bottom: 5px;
 }
 
@@ -68,7 +91,9 @@ code {
 }
 
 .profile .stats .quantity {
-  font-size: 16px;
+  
+ 
+font-size: 16px;
   font-weight: bold;
   color: #555;
 }
@@ -77,7 +102,9 @@ code {
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 20px;
+  
+ 
+padding: 20px;
 }
 
 .statistics .title {
@@ -87,13 +114,19 @@ code {
 }
 
 .statistics .stat-list {
-  list-style: none;
+  
+ 
+list-style: none;
   padding: 0;
 }
 
 .statistics .item {
-  display: flex;
-  justify-content: space-between;
+  
+ 
+display: flex;
+  
+ 
+justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
@@ -103,18 +136,25 @@ code {
 }
 
 .statistics .percentage {
-  font-size: 16px;
+  
+ 
+font-size: 16px;
   font-weight: bold;
   color: #555;
 }
+
 .friend-list {
-  list-style: none;
+  
+ 
+list-style: none;
   padding: 0;
 }
 
 .friend-list .item {
   display: flex;
-  align-items: center;
+  
+ 
+align-items: center;
   margin-bottom: 10px;
 }
 
@@ -131,8 +171,12 @@ code {
 }
 
 .friend-list .status {
-  width: 10px;
-  height: 10px;
+  
+ 
+width: 10px;
+  
+ 
+height: 10px;
   border-radius: 50%;
   margin-right: 5px;
 }
@@ -147,14 +191,20 @@ code {
 
 .transaction-history {
   width: 400px;
-  border-collapse: collapse;
+  
+ 
+border-collapse: collapse;
   border: 1px solid #ccc;
 }
 
 .transaction-history th,
 .transaction-history td {
-  border: 1px solid #ccc;
-  padding: 10px;
+  
+ 
+border: 1px solid #ccc;
+  
+ 
+padding: 10px;
   text-align: center;
 }
 

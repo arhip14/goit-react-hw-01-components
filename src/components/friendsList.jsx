@@ -1,6 +1,4 @@
 import React from 'react';
-import './friendList.css';
-
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className="item">
