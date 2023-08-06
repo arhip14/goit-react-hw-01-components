@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from './profile';
-import Statistics from './statistic/statistics';
+import Statistics from '../components/statistic/statistics';
 import FriendList from './friendsList';
 import TransactionHistory from './transaction/transactionHistory';
 import user from '../json-info/user.json';
