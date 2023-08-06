@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Statistics = ({ title, stats }) => {
   return (
     <section className="statistics">
@@ -15,4 +16,4 @@ const Statistics = ({ title, stats }) => {
   );
 };
 
-export default Statistics;
+export default Statistics; 
