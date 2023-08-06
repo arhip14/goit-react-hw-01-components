@@ -7,24 +7,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+background-color: #E0FFFF;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+
+}
+
 .profile {
   display: flex;
   flex-direction: column;
-  
- 
-align-items: center;
+  margin-bottom: 50px;
+  align-items: center;
   width: 300px;
-  
- 
-border: 1px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
+  margin-top: 25px;
+  background-color: #FFFAF0;
+      max-width: 342px;
 }
 
 .profile .description {
@@ -100,11 +115,12 @@ font-size: 16px;
 
 .statistics {
   width: 300px;
-  border: 1px solid #ccc;
   border-radius: 8px;
-  
+  margin-bottom: 50px;
  
 padding: 20px;
+    background-color: #FFFAF0;
+        max-width: 342px;
 }
 
 .statistics .title {
@@ -121,7 +137,7 @@ list-style: none;
 }
 
 .statistics .item {
-  
+
  
 display: flex;
   
@@ -144,16 +160,17 @@ font-size: 16px;
 }
 
 .friend-list {
-  
- 
 list-style: none;
   padding: 0;
+       background-color: #FFFAF0;
+         border: 1px solid #ccc;
+             max-width: 342px;
 }
 
 .friend-list .item {
   display: flex;
   
- 
+     justify-content: center;
 align-items: center;
   margin-bottom: 10px;
 }
@@ -191,10 +208,13 @@ height: 10px;
 
 .transaction-history {
   width: 400px;
-  
- 
+    border: 1px solid #ccc;
+margin-top: 50px;
 border-collapse: collapse;
-  border: 1px solid #ccc;
+
+  margin-bottom: 25px;
+    background-color: #FFFAF0;
+    max-width: 342px;
 }
 
 .transaction-history th,
